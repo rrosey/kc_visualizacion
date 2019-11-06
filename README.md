@@ -7,7 +7,7 @@ El dashboard desarrollado con Tableau tiene como objetivo detectar a nivel de ba
 - neighbourhoods.geojson: Poligonos que delimitan cada uno de los barrios con los que poder hacer las agregaciones de datos.
 
 El dashboard se compone de varios gráficos entre los que se distinguen:
-- Unas tarjetas superiores que muestran metricas a nivel global. En algunas de ellas se hace uso de las expresiones LOD para que sean independeintes de los filtros.
+- Unas tarjetas superiores que muestran métricas a nivel global. En algunas de ellas se hace uso de las expresiones LOD para que sean independientes de los filtros.
 - Mapa donde se muestra con color aquellos barrios en los que se han detectado más alquileres con malas recomendaciones. En este caso se ha hecho uso de los parámetros de Tableau para hacer configurable el ratio a partir del cual considermos una review mala o buena.  
 También se han tenido que crear varios campos calculados y hacer uso de los joins para poder agrupar los datos a nivel de barrio.
 - Gráficos de barras y anillo inferiores. Muestran los tipos de habitaciones, porcentages entre valoraciones malas y buenas, y el precio de aquellos alquileres que tienen una mala valoración. 
