@@ -6,7 +6,7 @@ El dashboard desarrollado con Tableau tiene como objetivo detectar a nivel de ba
 - airbnb-listings Madrid: Csv proporcionado para la práctica.
 - neighbourhoods.geojson: Poligonos que delimitan cada uno de los barrios con los que poder hacer las agregaciones de datos.
 
-### Conceptos utilizados de Tableau
-
-Para el desarrollo de este dashboard se han utilizado
--
+El dashboard se compone de varios graficos entre los que se distinguen:
+- Unas tarjetas superiores que se indican unas metricas a nivel global. En elgunas de ellas hacen uso de expresiones LOD para hacerlas independeintes de los filtros.
+- Mapa donde se muestra con color aquellos barrios en los que se han detectado más alquileres con malas recomendaciones. En este caso se ha hecho uso de los parámetros de Tableau para hacer el ratio a partir del que considermos una review mala o buena sea configurable.  
+Tambien se han tenido que crear varios campos calculados y hacer uso de los joins para poder agrupar los datos a nivel de barrio.
